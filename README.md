@@ -32,7 +32,7 @@ $ python probeTm.py -i TATGAGGACGAATCTCCCGCTTATA
 ### Background
 
 The magic is done by [environment.yml](./environment.yml), which specifies to conda
-the correct version of OligoMiner dependencies.
+the correct version of OligoMiner dependencies:
 
 ```
 name: oligo_miner_env
