@@ -6,25 +6,18 @@ A [conda](https://conda.io/) environment for running [OligoMiner](https://github
 
 1. Install [conda](https://docs.conda.io/en/latest/miniconda.html)
 
-2. Clone this repo and create the conda environment:
+2. Clone this repo. Create and activate the conda environment:
 
 ```
-$ git clone git@github.com:conorcamplisson/oligo_miner_env.git
-$ cd oligo_miner_env/
+$ git clone git@github.com:conorcamplisson/oligo_miner_env.git && cd oligo_miner_env/
 $ conda env create -f environment.yml
-```
-
-3. Activate the new conda environment:
-
-```
 $ conda activate oligo_miner_env
 ```
 
-4. That's it! Now you can run OligoMiner:
+3. That's it! Now you can run OligoMiner:
 
 ```
-$ git clone git@github.com:brianbeliveau/OligoMiner.git
-$ cd OligoMiner/
+$ git clone git@github.com:brianbeliveau/OligoMiner.git && cd OligoMiner/
 $ python probeTm.py -i TATGAGGACGAATCTCCCGCTTATA
 32.85
 ```
