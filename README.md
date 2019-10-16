@@ -29,3 +29,22 @@ $ python probeTm.py -i TATGAGGACGAATCTCCCGCTTATA
 32.85
 ```
 
+### Background
+
+The magic is done by [environment.yml](./environment.yml), which specifies to conda
+the correct version of OligoMiner dependencies.
+
+```
+name: oligo_miner_env
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - biopython=1.74
+  - bowtie2=2.3.5
+  - jellyfish=2.2.10
+  - pip=19.2.3
+  - python=2.7.16
+  - scikit-learn=0.20.3
+```
